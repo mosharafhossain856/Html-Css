@@ -1,0 +1,163 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+body{
+	background-color: powderblue;
+}
+.header{
+	margin: 10px;
+	width: 100%;
+	height: 400px;
+}
+.header h1{
+	font-size: 75px;
+	font-weight: bold;
+	line-height: 50px;
+	color: white;
+	margin-top: 165px;
+	margin-left: 30%;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.header p{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 25px;
+	color: white;
+	margin-top: 15px;
+	margin-left: 40%;
+	display: inline-block;
+	text-transform: capitalize;
+}
+.navbar{
+	width: 1900px;
+	height: 80px;
+	background-color: grey;
+	margin-left: 10px;
+}
+.navbar a img{
+	width: 190px;
+    height: 70px;
+    padding: 5px;
+    float: left;
+}
+.navbar ul{
+	display: block;
+	list-style: none;
+	overflow: hidden;
+	padding: 10px;
+}
+.navbar ul li{
+	float: left;
+}
+.navbar ul li a{
+	font-size: 25px;
+    font-weight: bold;
+    line-height: 57px;
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+.navbar ul li a:hover{
+	color: #006a4e;
+	background-color: #f42a41;
+}
+.navbar ul li a.active{
+	color: #f42a41;
+	background-color: #006a4e;
+}
+.content{
+	width: 1900px;
+	height: 1300px;
+	margin: 10px;
+}
+.content h1{
+	font-size: 45px;
+    font-weight: bold;
+    line-height: 50px;
+    color: black;
+    margin-top: 40px;
+    margin-left: 12%;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.history{
+	width: 375px;
+	height: 500px;
+	display: block;
+	float: left;
+	margin-top: 2%;
+}
+.history img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	cursor: progress;
+}
+.history h5{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 15px;
+	color: black;
+	text-align: left;
+	margin-top: 10px;
+	text-decoration-line:underline;
+}
+.history p{
+	font-size: 16px;
+	line-height: 10px
+	color: black;
+	text-align: left;
+	margin-top: 10px;
+}
+.history a{
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 15px;
+	color: white;
+	background-color: green;
+	margin-top: 20px;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration:none;
+	display: inline-block;
+}
+.history a:hover{
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+}
+.footer{
+	width: 1900px;
+	height: 60px;
+	margin: 10px;
+	background-color: grey;
+}
+.footer footer.left{
+	width: 50%;
+	float: left;
+}
+.footer footer.left p{
+	font-size: 18px;
+	line-height: 15px;
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+}
+.footer footer.right{
+	width: 50%;
+	float: right;
+}
+.footer footer.right a img{
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-left: 20px;
+}
